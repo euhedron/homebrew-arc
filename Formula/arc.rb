@@ -2,27 +2,27 @@
 class Arc < Formula
   desc "Agent-first CLI for AI-powered cross-repo code intelligence and auditing"
   homepage "https://github.com/euhedron/arclite"
-  version "0.1.13"
+  version "0.1.14"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/euhedron/arclite/releases/download/v0.1.13/arc-v0.1.13-macos-aarch64"
-      sha256 "727587e6c013777ddc38e62ddecae7d9e38cf297f50e5b8600c7ae6eb8a068cd"
+      url "https://github.com/euhedron/arclite/releases/download/v0.1.14/arc-v0.1.14-macos-aarch64"
+      sha256 "3911bcc4fc911d2ade79ff86626f854ac2a02915efeff32e64d1a440512fa202"
     end
     on_intel do
-      url "https://github.com/euhedron/arclite/releases/download/v0.1.13/arc-v0.1.13-macos-x86_64"
-      sha256 "1bcae330f2bce44c941090b836f3a6fd61e9e3f4202f71cba60770377b81dde4"
+      url "https://github.com/euhedron/arclite/releases/download/v0.1.14/arc-v0.1.14-macos-x86_64"
+      sha256 "68eeb09d3245eb50afc90c6a39d9b317fd143a10a6d73f4af90b419b28d703a8"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/euhedron/arclite/releases/download/v0.1.13/arc-v0.1.13-linux-x86_64"
-      sha256 "6ff61ad5527bceb3611df4db10512e18bc2a10e61f3cc832661aef2af4e5f09b"
+      url "https://github.com/euhedron/arclite/releases/download/v0.1.14/arc-v0.1.14-linux-x86_64"
+      sha256 "45eba082d09c1b0c8ea88b924df21c4b94f69e01ad31dc70baca3d69b570a9b9"
     end
     on_arm do
-      url "https://github.com/euhedron/arclite/releases/download/v0.1.13/arc-v0.1.13-linux-aarch64"
-      sha256 "f884ea445f6bf1ecdb8d2efef05e207e657ed1605ba39f6e964a92a2ba9fe037"
+      url "https://github.com/euhedron/arclite/releases/download/v0.1.14/arc-v0.1.14-linux-aarch64"
+      sha256 "2371335a20ba7c3594c1ec28908af80b26cb56939be8e3dc3429f90f2474944e"
     end
   end
 
